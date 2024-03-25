@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*tạo css cho header*/
+header{
+    background-color: #fff(31, 202, 174);
+    color: aliceblue;
+    padding: 20px;
+    width: 100%;
+    justify-content: space-around;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;font-weight: bolder;
+}
+nav li{margin-right:20px ;}
+nav li:hover{background-color: rgb(232, 229, 235);padding: 10px;}
+.logo{width: 50px;height: 40px;}
+nav .a{
+    color: #fff;
+    text-decoration: none;
+}
+h1{margin: 20px 15px 10px o;
+text-align: center;
+text-transform: uppercase;
+font-size: 40px;}
+main {padding: 50px;
+background-color: rgb(243, 244, 245);
+}
+.section{margin-bottom: 50px;}
+.section p{
+    text-align: center;    
+}
+.section p,H2,h3{
+    text-align: center;
+
+}
+.section h2{margin: 0 0 20px;}
+.Football{display:flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.anh{width: 300px; height: 400px;}
+button{
+    text-align: center;
+}
+/**/
+section form{
+    margin-left: 35%;
+}
+section form input{
+    margin-left: 50px;
+    width: 300px;
+    height: 30px;
+    margin-top: 20px;
+}
+#email{
+    margin-left: 74px;
+    text-align: center;
+}
+#message{margin-left: 60px;
+text-align: center;}    
+section form button{
+    margin-left: 20px;
+    width: 50px ;
+    height: 25px;
+    margin-left: 370px;
+}
+footer{background-color: black;
+color: #fff;
+padding: 20px;
+font-size: 30px;
+text-align: center;}
+button {
+    text-align: center;
+    background-color: rgb(239, 242, 243);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.root>li{
+    list-style: none;
+    float: left;
+    position: relative;
+    display: block;
+}
+.root li a{
+    text-decoration: none;
+    color: rgb(247, 244, 250);
+    padding: 0px 15px 0px 15px;
+    line-height: 50px;
+    display: block;
+}
+.menu_web{
+    width: 97%;
+    height: 50px;
+    background-color: #0babd3;
+    margin: 0px auto;
+    font-size: 17px;
+}
+
+.root>li>a:hover
+{background-color: yellowgreen;
+color: rgb(248, 247, 244);
+transform: ease-in 0.35s;}
+.submenu{
+    width: 250px;
+    background-color: #0babd3;
+    min-height: 80px;
+    display: none;
+    position: absolute;
+}
+.submenu li{list-style: none;}
+.submenu li a{
+    text-align: center;
+    text-transform: none;
+    text-decoration: none;
+    color: snow;
+    display: block;
+    border: 1px solid #ccc;
+    line-height: 40px;
+    text-indent: 12px;
+}
+.root>li:hover .submenu{
+    display: block;
+    background-color: gray;
+    color: rgb(239, 7, 7);
+    transform: ease-in 0.35s;
+}
+.submenu>li>a:hover{
+    background-color: yellowgreen;
+    color: white;
+    transform: ease-in 0.35s;
+}
+#name{
+    margin-left: 80px;
+    text-align: center;
+}   
+#text{
+    margin-left: 74px;
+    text-align: center;
+}
+.logo4{
+    padding-left: 50px;
+    text-align: left;
+}
+.logo1{
+    padding-top: 10px;
+    padding:10px 0;
+    width: 100%;
+}
+.anh{
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
